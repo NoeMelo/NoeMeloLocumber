@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Music player</title>
+
+
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'>
+
+      <link rel="stylesheet" href="music_player/css/style.css">
+
+
+</head>
+
+<body>
+  <style media="screen">
+  @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Inconsolata|Indie+Flower|Pacifico');
+
+  .container{
+  width:500px;
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+  }
+  .text-body{
+    font-size: 33px;
+    /*color: rgba($dark, .9);*/
+    font-family: 'Indie Flower', cursive;
+    /*text-align: justify;*/
+    /*font-family: 'Inconsolata', monospace;*/
+    /*font-family: 'Pacifico', cursive;*/
+    /*font-family: 'Dancing Script', cursive;*/
+    }
+    .text-body p{
+      font-size: 33px;
+      font-family: 'Indie Flower', cursive;
+    }
+    .text-body h1,i{
+      font-size: 40px;
+      font-family: 'Dancing Script', cursive;
+    }
+  </style>
+  <div class="container">
+    <div class="text-body">
+      <h1>!!!Feliz Cumpleaños Criiiiiis!!!</h1>
+      <p>
+        Dios te bendiga Criiiiiiiiis! Un año más de victoria que Dios te da. Bueno, desde mi perspectiva
+        la vida se va demasiado rápido que a veces ni nos damos cuenta hasta que llegan fechas como  hoy, luego pensammos
+        en todo lo que hemos vivimos, recuerdos de la infancia que jamás volverán.
+      </p>
+      <p>
+        La vida se va en una, puede que hoy vivamos y mañana no, pero en nuestra realidad cristiana vivimos con esperanza
+        que la vida celestial es mucho mejor que la vida terrenal, una vida inimaginable.
+      </p>
+      <p>
+        Bueno, no quiero alargarme pero, hago esto con el fin de animarte Criiiiiiiiis, sé que amas a Dios, buscas de él, tal vez
+        más que muchos de nosotros que andamos aún priorizando cosas terrenales. Sigue así Cris, nunca te apartes de Dios, pase lo que pase.
+        Una vida cristiana no es cualquier vida, es una vida que solo los valientes pueden vivirla, está llena de provilegios que Dios nos dá,
+        nos cuida con sus ángeles de cualquier peligro, vivimos confiados porque tenemos esperanza en Dios; mientras el mundo confia en sus fuerzas
+        hasta dar el último suspiro, como dice el libro de Job.
+      </p>
+      <br>
+      <br>
+      <p>
+        Sin más que decir, te dejo con una canción para el alma, escuchalo! 😊
+      </p>
+    </div>
+
+  </div>
+
+
+<div class="player">
+  <audio class="player__audio viewer">
+    <source src="music/Aunque Haya Pruebas.mp3" type="audio/mpeg" data-trackid="1">
+    Your browser does not support the audio element.
+  </audio>
+  <div class="song-panel">
+    <div class="song-info">
+      <div class="song-info__title">Aunque Haya Pruebas</div>
+      <div class="song-info__artist">Felipe Garibo</div>
+      <div class="progress">
+        <div class="progress__filled"></div>
+      </div>
+    </div>
+  </div>
+  <div class="player-controls">
+    <div class="spinner">
+      <div class="spinner__disc" style="background-image: url(https://www.bensound.com/bensound-img/ukulele.jpg)">
+        <div class="center__disc"></div>
+      </div>
+    </div>
+    <button class="backward"><i class="fas fa-backward fa-2x"></i></button>
+    <button class="play">
+      <i class="fas fa-play fa-3x"></i>
+      <span class="pause left"></span>
+      <span class="pause right"></span>
+    </button>
+    <button class="forward"><i class="fas fa-forward fa-2x"></i></button>
+  </div>
+</div>
+
+
+
+    <script  src="music_player/js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
