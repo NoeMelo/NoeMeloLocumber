@@ -1,2 +1,2 @@
 # NoeMeloLocumber
-Persona Landing Page
+Personal Landing Page
