@@ -23,6 +23,12 @@ body{
     background:var(--main-background-color);
     color: var(--main-text-color);
 }
+#particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 .profile{
     padding: 30px 18%;
     text-align: center;
@@ -42,7 +48,7 @@ body{
     text-align: center;
     margin-top: 10px;
     padding: 15px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-width: 2px;
     width: 290px;
     display: block;
@@ -53,7 +59,8 @@ body{
 a {
     text-decoration: none;
     color: white;
-    transition: color 0.5s; 
+    transition: color 0.5s;
+    background-color: rgba(238, 69, 64, 0.8)
 }
 a:hover {
     color: #000;
